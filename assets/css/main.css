@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url(brands.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 @import url('http://fonts.cdnfonts.com/css/nickainley');
 @import url('http://fonts.cdnfonts.com/css/league-spartan');
@@ -2886,23 +2887,27 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #1DB954;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #555555;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #FF9900;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #FF0000;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #629aa9;
+			}
+			
+			.statistics li.style6 {
+					background-color: #0e6bff;
 			}
 
 			.statistics li strong, .statistics li b {
