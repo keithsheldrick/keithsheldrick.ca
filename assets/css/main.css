@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('http://fonts.cdnfonts.com/css/nickainley');
+@import url('http://fonts.cdnfonts.com/css/league-spartan');
 
 /*
 	Stellar by HTML5 UP
@@ -100,7 +102,7 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/background.jpg");
+		background-image: url("images/background.png");
 		Background-size: cover;
 		background-attachment: fixed;
 	}
@@ -120,7 +122,7 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		color: black;
 	}
 
 	body, input, select, textarea {
@@ -200,17 +202,20 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
 			text-decoration: none;
 		}
 
 	h1 {
 		font-size: 2.5em;
 		line-height: 1.2;
+		font-family: 'Nickainley', sans-serif;
+		color: white;
 	}
 
 	h2 {
 		font-size: 1.5em;
+		font-family: 'Nickainley', sans-serif;
+		color: black;
 	}
 
 	h3 {
@@ -227,6 +232,8 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.7em;
+		font-family: 'League Spartan', sans-serif;
+		color: black;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -310,10 +317,6 @@ input, select, textarea {
 	}
 
 	strong, b {
-		color: #ffffff;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 	}
 
