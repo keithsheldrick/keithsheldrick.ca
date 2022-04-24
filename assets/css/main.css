@@ -2794,6 +2794,10 @@ input, select, textarea {
 	table.alt tbody tr td {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
+	
+	.image img{
+		width: 100%;
+	}
 
 /* Features */
 
